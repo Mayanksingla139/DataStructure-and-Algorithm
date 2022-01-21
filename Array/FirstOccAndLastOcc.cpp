@@ -60,5 +60,6 @@ int main()
     int a[6] = {1, 3, 3, 3, 5, 6};
     int k = 3;
     cout << "First Occurrence of 3 at index:" << FirstOcc(a, 6, k) << endl;
-    cout << "Last Occurrence of 3 at index:" << LastOcc(a, 6, k);
+    cout << "Last Occurrence of 3 at index:" << LastOcc(a, 6, k)<<endl;
+    cout << "Total Number of Occurrence:" << (LastOcc(a, 6, k) - FirstOcc(a, 6, k)) + 1;
 }
